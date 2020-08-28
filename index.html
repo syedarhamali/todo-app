@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <title>To-Do Application</title>
 </head>
 <body>
-    <h1>To-Do Application</h1>
-    <div class="div_one">
-        <input class="input_box" type="text" placeholder="Enter To-Do" value="" id="todo-item">
-        <button class="btn_1" onclick="addTodo()"> Add items</button>
-        <button class="btn_2" onclick="deleteall()"> Delete All</button>
+    <div class="container">
+    <h1>ToDo Application</h1>
+    <div class="firstChild">
+    <input type="text" id="todo-input" placeholder="Enter To-Do??"> 
+    <button class="btns" onclick="insertTodo()">Add To-Do</button>
+    <button class="btns" onclick="deleteall()">Delete All</button>
     </div>
-    <div class="div_two">
-        <li class="list_items" id="list">
-        </li>
+    <div class="firstChild">
+      <table id="table-input">
+
+      </table>
     </div>
+    </div>
+    <script src="app.js"></script>
 </body>
-  <script src="app.js"></script>
 </html>
