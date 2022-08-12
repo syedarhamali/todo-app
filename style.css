@@ -1,5 +1,7 @@
 body{
     background-image: url(https://encrypted-tbn0.gstatic.com/https://free4kwallpapers.com/uploads/originals/2015/07/14/backgrounds,-background,-cute,-desktop,-wallpapers,-black.jpg?q=tbn%3AANd9GcT-p8LxX2Xxpz8dOZptZ4HhbbM74xa1lrOd9A&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     margin: 0%;
     padding: 0%;
@@ -9,7 +11,7 @@ body{
     text-align: left;
 
 }
-.firstChild{
+.Child{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -19,10 +21,13 @@ input{
     border: 0px;
     border-radius: 3px;
     width: 30%;
+    height: 20px;
+    outline: none;
 }
 .btns{
     border: none;
-    margin: 5px;
+    margin: 10px;
+    padding: 5px;
     color: white;
     background-color: darkblue;
     width: 100px;
@@ -64,33 +69,36 @@ input{
     text-align: center;
     width: 100%;
 }
-#table-input{
+#table-output{
     margin: 3% 30% 0% 30%;
 }
 
 @media screen and (max-width: 850px) {
     input{
      width: 50%;
+     height: 20px;
     }
-    #table-input{
+    #table-output{
         margin: 2% 15% 2% 15%;
     }
 }
 @media screen and (max-width: 485px) {
     input{
         width: 90%;
+     height: 20px;
+
        }
-    #table-input{
+    #table-output{
         margin: 2% 15% 2% 15%;
     }
 }
 @media screen and (max-width: 430px) {
-    #table-input{
+    #table-output{
         margin: 2% 10% 2% 10%;
     }
 }
 @media screen and (max-width: 350px) {
-    #table-input{
+    #table-output{
         margin: 2% 3% 2% 3%;
     }
 }
